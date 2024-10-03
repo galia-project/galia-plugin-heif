@@ -1,0 +1,23 @@
+##
+# This file contains all of the configuration keys used by HEIFEncoder.
+# Simply copy them into your main application configuration.
+#
+
+#----------------------------------------
+# HEIFEncoder
+#----------------------------------------
+
+# Whether to use lossless encoding.
+encoder.HEIFEncoder.lossless = false
+
+# Encoding preset (x265 encoder only). Available values:
+# ultrafast, superfast, veryfast, faster, fast, medium, slow, slower,
+# veryslow, placebo
+encoder.HEIFEncoder.preset = faster
+
+# Encoding speed (non-x265 encoders only; 1-10).
+encoder.HEIFEncoder.speed = 7
+
+# Quality factor for lossy encoding (0-100). Ignored for lossless encoding.
+encoder.HEIFEncoder.quality = 75
+
